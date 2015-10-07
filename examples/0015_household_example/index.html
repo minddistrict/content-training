@@ -1,0 +1,13 @@
+<p>What is your age?</p>
+<p><input min="1" max="100" name="age" type="number" data-field-widget="slider" /></p>
+<p>Number of people in your household</p>
+<p><input min="1" max="100" name="num_people" type="number" data-field-widget="slider" /></p>
+<div data-condition="[&quot;num_people&quot;,&quot;&gt;&quot;,1]">
+<p>How many under 16?</p>
+<p><input min="0" max="100" name="under_16" type="number" data-field-widget="slider" /></p>
+<p>How many 16 or older?</p>
+<p><input min="0" max="100" name="over_16" type="number" data-field-widget="slider" /></p>
+</div>
+<p>s</p>
+<p>People under 16: <span data-field-value="computation:people_under_16"> </span></p>
+<p>People over 16: <span data-field-value="computation:people_over_16"> </span></p>
