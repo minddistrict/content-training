@@ -23,8 +23,7 @@ If you want to test your graph, please put your document in a ROMentry and the
 ROMentry in a ROMplanning like you learned during the CMS training.  Make the
 monitoring (your ROMplanning) available for your testclient at twice (can be
 on the same day), and fill it in (you can see the results the best if you
-respond very differently each time).  If all went well, you will get a graph
-like in the added picture.
+respond differently each time).  If all went well, you will get a graph like
+this:
 
-If you want to make the graph more fancy, you can …?
-If you want to make multiple graphs, you can…?”
+![Example graph](graph_example.png)
